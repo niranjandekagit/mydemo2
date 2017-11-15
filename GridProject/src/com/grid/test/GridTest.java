@@ -31,6 +31,7 @@ public class GridTest {
 			DesiredCapabilities cap= new DesiredCapabilities();
 			cap.setBrowserName("chrome");
 			cap.setPlatform(Platform.WINDOWS);
+			System.out.println("Hi");
 			
 			driver=new RemoteWebDriver(new URL(nodeURL),cap);
 			driver.manage().window().maximize();

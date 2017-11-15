@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+  <test name="ChromeTest">
+    <parameter name="portNo" value="4546"></parameter>    
+    <classes>
+      <class name="com.grid.test.GridTest"/>
+    </classes>
+  </test> <!-- Test -->
+   
+<!--     <test name="IETest"> -->
+<!--     <parameter name="portNo" value="4545"></parameter>      -->
+<!--     <classes> -->
+<!--       <class name="com.grid.test.GridTest"/> -->
+<!--     </classes> -->
+<!--   </test> Test   -->
+    
+</suite> <!-- Suite -->
